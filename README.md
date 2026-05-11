@@ -68,7 +68,7 @@ If you do like editing XMLs, you can do that too. Just copy/paste a block and go
 Each entry has:
 - **Alias** — what's shown when you bind the action to a crossbar
 - **Name** — a unique name shown on the action binder, also acts as a unique key (i.e., no duplicates)
-- **Command** — the raw Windower command that fires when the slot is pressed
+- **Command** — the raw Windower command that fires when the slot is pressed (**don't** include `//`)
 - **Icon** (optional) — pulled from the active iconpack
 - **Linked metadata** (optional) — borrow MP/TP cost, recast, and element from a real spell or job ability so the slot displays cost and recast indicators just like a native action, neat if you're using gearswap commands to act as specific spells/JAs/WSs for whatever reason
 
